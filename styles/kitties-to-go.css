@@ -1,0 +1,114 @@
+* {box-sizing: border-box;}
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+#book-cat {
+  float: right;
+  color: red;
+}
+
+header h3 {
+  color: gray;
+}
+
+nav {
+  background: gray;
+  padding: 1rem;
+}
+
+nav a {
+  padding-left: 2rem;
+}
+
+img {
+  width: 75%
+}
+
+.cat-story-container {
+  width: 60rem;
+  padding-right: 2rem;
+}
+
+.cat-content {
+  margin-bottom: 2rem;
+}
+
+.cat-image-container {
+  border: 3px solid black;
+  width: 20rem;
+  text-align: center;
+  padding: 0rem 1rem;
+}
+
+.cat-link {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.book-now {
+  color: red;
+  width: 6rem;
+}
+
+.caption {
+  width: 10em;
+  margin: 0;
+}
+
+footer {
+  height: 10rem;
+  background: black;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.contacts-addr {
+  text-align: left;
+  font-style:normal;
+  font-size: 1rem;
+}
+
+#cont-cat {
+  float: left;
+  color: red;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+.side-bar-container {
+  border: 3px solid green;
+  width: 300rem;
+  text-align: center;
+  padding: 0rem 1rem;
+  background: black;
+  color: white;
+}
